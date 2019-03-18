@@ -20,29 +20,59 @@ a {
   margin: auto;
 }
 
-.header .container .row1 {
-  height: 20px
-}
+.header .container .row1 {  height: 24px;}
 
-.header .container .row1 .menuLeft{
-  float: left;
-}
+.header .container .row1 .menuLeft{  float: left;}
+.header .container .row1 .menuLeft .item{  float: left;  font-size: 10pt;  /* width: 150px; */  text-align: center;  padding: 4px 10px 5px;}
 
-.header .container .row1 .menuLeft .item{
-  float: left;
-}
+.header .container .row1 .menuRight{  float: right;}
+.header .container .row1 .menuRight .logoEner{  float: right;  background-image: url('./img/Ener.jpg');  width: 110px;  height: 27px;}
+.header .container .row1 .menuRight .item{  float: right;  font-size: 10pt;  /* width: 150px; */  text-align: center;  padding: 4px 10px 5px;}
 
-.header .container .row1 .menuRight{
-  float: right;
-}
+.header .container .row2 {  height: 80px}
+.header .container .row2 .flags{  height: 35px;  width: 161px;  background-image: url('./img/flags.jpg');  float: left;}
+.header .container .row2 .logo{  height: 71px;  width: 325px;  background-image: url('./img/logo.jpg');  margin: auto;}
+.header .container .row2 .options{  float: right;}
 
-.header .container .row2 {
-  height: 80px
-}
+.header .container .row3 {  height: 23px}
+.header .container .row3 .date{  float: left;}
+.header .container .row3 .session{  float: right;}
 
-.header .container .row3 {
-  height: 23px
-}
+/*BANNERS HEAD*/
+.bannerTops{  width: 100%;  background-color: #e4e4e4;}
+.bannerTops .banners{  margin: auto;  width:965px;  padding: 20px 0px;}
+
+/*CUERPO DE TAPA - ESTRUCTURA*/
+.cuerpo{  width: 1260px;  margin: 30px auto;}
+.cuerpo .info{  float: left;  width: 940px;  margin-right: 19px;}
+
+.cuerpo .banners{  float: left;  width: 300px;  margin-right: 0px;}
+
+.cuerpo .info .bloqueA {}
+
+.cuerpo .info .bloqueA .A1{  width: 600px;  float: left;  margin-right: 20px;}
+.cuerpo .info .bloqueA .A1 .foto{width: 100%;  height: 200px; margin-bottom: 10px}
+.cuerpo .info .bloqueA .A1 .volanta{width: 100%; font-family: 'Roboto'; margin-bottom: 10px}
+.cuerpo .info .bloqueA .A1 .volanta .txt{float: left;}
+.cuerpo .info .bloqueA .A1 .volanta .flags{ float: right; }
+.cuerpo .info .bloqueA .A1 .volanta .flags .flag{  float: right;  width: 22px;  height: 16px;}
+.cuerpo .info .bloqueA .A1 .titulo{  clear: both;  font-family: 'Roboto Slab', serif; font-size: 25pt; font-weight: 600; margin-bottom: 10px}
+
+.cuerpo .info .bloqueA .A2{width: 320px;float: left;}
+.cuerpo .info .bloqueA .A2 .foto{width: 100%;  height: 200px; margin-bottom: 10px}
+.cuerpo .info .bloqueA .A2 .volanta { width: 100%; font-family: 'Roboto'; margin-bottom: 10px}
+.cuerpo .info .bloqueA .A2 .volanta .txt{ float: left;}
+.cuerpo .info .bloqueA .A2 .volanta .flags{ float: right;}
+.cuerpo .info .bloqueA .A2 .volanta .flags .flag{ float: right;  width: 22px;  height: 16px;}
+.cuerpo .info .bloqueA .A2 .titulo{  clear: both;  font-family: 'Roboto Slab', serif;  font-size: 25pt; font-weight: 600; margin-bottom: 10px}
+
+.cuerpo .info .bloqueB {}
+
+.cuerpo .info .bloqueB .B1{  width: 300px;  float: left;  margin-left: 20px;}
+.cuerpo .info .bloqueB .B2{  width: 300px;  float: left;  margin-left: 20px;}
+.cuerpo .info .bloqueB .B3{  width: 300px;  float: left;}
+
+.cuerpo .info .banner700 {  clear: both;}
 
 /*BOTONES*/
 .qs {

@@ -1,0 +1,63 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  color: white;
+  font-family: 'roboto';
+  background: url('./img/headerBg.jpg');
+  height: 123px;
+}
+
+.header .container {
+  width: 1260px;
+  margin: auto;
+}
+
+.header .container .row1 {
+  height: 20px
+}
+
+.header .container .row1 .menuLeft{
+  float: left;
+}
+
+.header .container .row1 .menuLeft .item{
+  float: left;
+}
+
+.header .container .row1 .menuRight{
+  float: right;
+}
+
+.header .container .row2 {
+  height: 80px
+}
+
+.header .container .row3 {
+  height: 23px
+}
+
+/*BOTONES*/
+.qs {
+  background: black;
+}
+
+.ad {
+  background: magenta;
+}
+
+.ac {
+  background: cyan;
+}
+
+.sa {
+  background: yellow;
+  color: #444;
+}

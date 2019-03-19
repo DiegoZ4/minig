@@ -7,6 +7,8 @@ a {
   text-decoration: none;
 }
 
+.clear{ clear: both;}
+
 .header {
   width: 100%;
   color: white;
@@ -23,7 +25,7 @@ a {
 .header .container .row1 {  height: 30px;}
 
 .header .container .row1 .menuLeft{  float: left;}
-.header .container .row1 .menuLeft .item{  float: left;  font-size: 10pt;  /* width: 150px; */  text-align: center;  padding: 6px 10px 8px;}
+.header .container .row1 .menuLeft .item{  float: left;  font-size: 10pt;  /* width: 150px; */  text-align: center;  padding: 7px 10px 8px;}
 
 .header .container .row1 .menuRight{  float: right;}
 .header .container .row1 .menuRight .logoEner{  float: right;  background-image: url('./img/Ener.jpg');  width: 110px;  height: 27px;}
@@ -72,12 +74,21 @@ a {
 
 .cuerpo .info .bloqueB {}
 
-.cuerpo .info .bloqueB .B1{  width: 300px;  float: left;  margin-left: 20px;}
-.cuerpo .info .bloqueB .B2{  width: 300px;  float: left;  margin-left: 20px;}
-.cuerpo .info .bloqueB .B3{  width: 300px;  float: left;}
+.cuerpo .info .bloqueB .notaB{  width: 300px;  float: left;  margin-right: 20px;}
+/* .cuerpo .info .bloqueB .B2{  width: 300px;  float: left;  margin-left: 20px;}
+.cuerpo .info .bloqueB .B3{  width: 300px;  float: left;} */
 
-.cuerpo .info .banner700 {  clear: both;}
+.cuerpo .info .bloqueB .notaB .foto{width: 100%;  height: 180px; margin-bottom: 10px; background-size: cover;}
+.cuerpo .info .bloqueB .notaB .volanta { width: 100%; font-family: 'Roboto'; margin-bottom: 10px; font-size: 10pt}
+.cuerpo .info .bloqueB .notaB .volanta .txt{ float: left;}
+.cuerpo .info .bloqueB .notaB .volanta .flags{ float: right;}
+.cuerpo .info .bloqueB .notaB .volanta .flags .flag{ float: right;  width: 22px;  height: 16px;}
+.cuerpo .info .bloqueB .notaB .titulo{ margin-top: 34px; color: #001e45; line-height: 1.2; clear: both;  font-family: 'Roboto Slab', serif;  font-size: 18pt; font-weight: 600; margin-bottom: 20px}
+.cuerpo .info .bloqueB .notaB .relacionadas { font-family: 'roboto slab'; font-weight: 600; font-size: 11pt}
+.cuerpo .info .bloqueB .notaB .relacionadas .relacionada {color: #1b4ea1; background-image: url('./img/link.jpg'); padding-left: 15px; background-repeat: no-repeat; margin-bottom: 11px; background-position: 0px 4px}
+.cuerpo .info .bloqueB .lastNotaB {margin-right: 0px}
 
+.cuerpo .info .banner700 {  clear: both; border-top: 1px solid #e4e4e4; border-bottom: 1px solid #e4e4e4; padding:20px 0px; margin: 20px 0px; text-align: center;}
 /*BOTONES*/
 .qs {
   background: #202020;

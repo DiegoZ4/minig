@@ -88,7 +88,29 @@ a {
 .cuerpo .info .bloqueB .notaB .relacionadas .relacionada {color: #1b4ea1; background-image: url('./img/link.jpg'); padding-left: 15px; background-repeat: no-repeat; margin-bottom: 11px; background-position: 0px 4px}
 .cuerpo .info .bloqueB .lastNotaB {margin-right: 0px}
 
+.cuerpo .info .bloqueC .notaC{  width: 460px;  float: left;  margin-right: 20px;}
+.cuerpo .info .bloqueC .notaC .foto{width: 100%;  height: 200px; margin-bottom: 10px}
+.cuerpo .info .bloqueC .notaC .volanta{width: 100%; font-family: 'Roboto'; margin-bottom: 10px; font-size: 10pt}
+.cuerpo .info .bloqueC .notaC .volanta .txt{float: left;}
+.cuerpo .info .bloqueC .notaC .volanta .flags{ float: right; }
+.cuerpo .info .bloqueC .notaC .volanta .flags .flag{  float: right;  width: 22px;  height: 16px;}
+.cuerpo .info .bloqueC .notaC .titulo{ margin-top: 34px; color: #001e45; line-height: 1.2; clear: both;  font-family: 'Roboto Slab', serif; font-size: 25pt; font-weight: 600; margin-bottom: 13px}
+.cuerpo .info .bloqueC .notaC .relacionadas { font-family: 'roboto slab'; font-weight: 600; font-size: 11pt}
+.cuerpo .info .bloqueC .notaC .relacionadas .relacionada {color: #1b4ea1; background-image: url('./img/link.jpg'); padding-left: 15px; background-repeat: no-repeat; margin-bottom: 11px; background-position: 0px 4px}
+.cuerpo .info .bloqueC .lastNotaC {margin-right: 0px}
+
 .cuerpo .info .banner700 {  clear: both; border-top: 1px solid #e4e4e4; border-bottom: 1px solid #e4e4e4; padding:20px 0px; margin: 20px 0px; text-align: center;}
+
+/*CARROUSEL*/
+.carrousel {width: 100%}
+.carrousel .arrowLeft{ width: 20px; float: left;}
+.carrousel .arrowRight{ width: 20px; float: right;;}
+.carrousel .carrouselMask{}
+.carrousel .carrouselMask .carrouselLine{}
+.carrousel .carrouselMask .carrouselLine .carrouselNota{}
+.carrousel .carrouselMask .carrouselLine .carrouselNota .foto{}
+.carrousel .carrouselMask .carrouselLine .carrouselNota .titulo {}
+
 /*BOTONES*/
 .qs {
   background: #202020;

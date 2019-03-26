@@ -14,7 +14,7 @@ a {
   color: white;
   font-family: 'roboto';
   background: url('./img/headerBg.jpg');
-  height: 156px;
+  height: 150px;
 }
 
 .header .container {
@@ -33,10 +33,16 @@ a {
 
 .header .container .row2 {  height: 84px}
 .header .container .row2 .flags{  height: 35px;  width: 161px;  background-image: url('./img/flags.jpg');  float: left; margin-top: 18px}
-.header .container .row2 .logo{  height: 71px;  width: 325px;  background-image: url('./img/logo.jpg');  margin: 7px auto;}
-.header .container .row2 .options{  float: right;}
+.header .container .row2 .logo{ float: left; height: 71px;  width: 785px;  background-image: url('./img/logo.jpg'); background-position: center; background-repeat: no-repeat; margin: 7px auto;}
+.header .container .row2 .options{  float: left; position: relative; top: 0px; left: 0px;  margin-top: 18px;}
+.header .container .row2 .options .buscador { float: left;; width: 202px; background: white; height: 40px; position: relative; margin-right: 7px}
+.header .container .row2 .options .buscador input {padding: 0px}
+.header .container .row2 .options .buscador .btn_buscar{ background: url(http://www.miningpress.com/static/bg_buscador.png) no-repeat; cursor: pointer; width: 40px; height: 40px; left: 0; position: absolute; text-indent: -9999px; border: none}
+.header .container .row2 .options .buscador .busqueda { border: none; color: #4D4D4D; height: 40px; line-height: 40px; padding-left: 46px; padding-right: 10px; width: 146px}
+.header .container .row2 .options .fb { width: 40px; height: 40px; background-image: url('./img/fb.jpg'); float: left; cursor: pointer; margin-right: 7px}
+.header .container .row2 .options .tw { width: 40px; height: 40px; background-image: url('./img/tw.jpg'); float: left; cursor: pointer;}
 
-.header .container .row3 {  height: 31px; padding-top: 4px; color: #1f1f1f}
+.header .container .row3 {  height: 31px; padding-top: 9px; color: white; font-size:10pt }
 .header .container .row3 .date{  float: left;}
 .header .container .row3 .session{  float: right;}
 
@@ -49,6 +55,17 @@ a {
 .cuerpo .info{  float: left;  width: 940px;  margin-right: 19px;}
 
 .cuerpo .banners{  float: left;  width: 300px;  margin-right: 0px;}
+.cuerpo .banners .banner{margin-top: 25px}
+
+.cuerpo .banners .nota3 { margin-top: 25px}
+.cuerpo .banners .nota3 .foto{width: 100%;  height: 200px; margin-bottom: 10px; background-size: cover;}
+.cuerpo .banners .nota3 .volanta{width: 100%; font-family: 'Roboto'; margin-bottom: 10px; font-size: 10pt}
+.cuerpo .banners .nota3 .volanta .txt{float: left;}
+.cuerpo .banners .nota3 .volanta .flags{ float: right; }
+.cuerpo .banners .nota3 .volanta .flags .flag{  float: right;  width: 22px;  height: 16px;}
+.cuerpo .banners .nota3 .titulo{ margin-top: 15px; color: #001e45; line-height: 1.2; clear: both;  font-family: 'Roboto Slab', serif; font-size: 15pt; font-weight: 600; margin-bottom: 13px}
+.cuerpo .banners .nota3 .relacionadas { font-family: 'roboto slab'; font-weight: 600; font-size: 11pt}
+.cuerpo .banners .nota3 .relacionadas .relacionada {color: #1b4ea1; background-image: url('./img/link.jpg'); padding-left: 15px; background-repeat: no-repeat; margin-bottom: 11px; background-position: 0px 4px}
 
 .cuerpo .info .bloqueA {}
 
@@ -103,13 +120,30 @@ a {
 
 /*CARROUSEL*/
 .carrousel {width: 100%}
-.carrousel .arrowLeft{ width: 20px; float: left;}
-.carrousel .arrowRight{ width: 20px; float: right;;}
-.carrousel .carrouselMask{}
-.carrousel .carrouselMask .carrouselLine{}
-.carrousel .carrouselMask .carrouselLine .carrouselNota{}
-.carrousel .carrouselMask .carrouselLine .carrouselNota .foto{}
-.carrousel .carrouselMask .carrouselLine .carrouselNota .titulo {}
+.carrousel .arrowLeft{ width: 20px; float: left; font-size: 23pt; margin-top: 90px; margin-right: 10px}
+.carrousel .arrowRight{ width: 20px; float: right; font-size: 23pt; margin-top: 90px;}
+.carrousel .carrouselMask{ float: left; overflow: hidden; width: 1200px}
+.carrousel .carrouselMask .carrouselLine{ width: 2000px}
+.carrousel .carrouselMask .carrouselLine .carrouselNota{ float: left; width: 200px; margin-right: 10px; padding: 5px 5px 15px; border: 1px solid #e4e4e4 }
+.carrousel .carrouselMask .carrouselLine .carrouselNotaLast { margin: 0px}
+.carrousel .carrouselMask .carrouselLine .carrouselNota .foto{ width: 100%; height: 150px; background-size: cover; margin-bottom: 10px}
+.carrousel .carrouselMask .carrouselLine .carrouselNota .titulo {color: #001e45; line-height: 1.2; font-family: 'Roboto Slab', serif; font-size: 14pt; font-weight: 600;}
+
+
+/*MAS LEIDAS*/
+.masLeidas {margin-top: 15px}
+.masLeidas .titulo{ background: #f51313; color: white; font-family: 'Roboto Slab'; font-size: 20pt; padding: 5px 5px 5px 15px}
+.masLeidas .titulo i{margin-right: 6px}
+.masLeidas .lista{}
+.masLeidas .lista .item { color: #9b1405; padding: 8px 13px; border-bottom: 1px solid #e4e4e4; font-family: 'Roboto Slab'; font-size: 12pt; font-weight: 400}
+
+/*DEBATE*/
+.debate {margin-top: 25px}
+.debate .titulo{ background: orange; color: white; font-family: 'Roboto Slab'; font-size: 20pt; padding: 5px 5px 5px 15px}
+.debate .titulo i{margin-right: 6px}
+.debate .lista{}
+.debate .lista .item { color: #9b1405; padding: 8px 13px; border-bottom: 1px solid #e4e4e4; font-family: 'Roboto Slab'; font-size: 12pt; font-weight: 400}
+
 
 /*BOTONES*/
 .qs {
